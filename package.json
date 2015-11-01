@@ -1,9 +1,9 @@
 {
   "name": "webpack-hot-hapi-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack hot reloading using only webpack-dev-hapi-plugin. This allows you to add hot reloading into an existing server",
   "main": "plugin.js",
-    "keywords": [
+  "keywords": [
     "plugin",
     "webpack",
     "webpack-dev",
@@ -14,5 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luis De Leon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "strip-ansi": "^3.0.0"
+  }
 }
